@@ -7,7 +7,6 @@
 #include <string.h>
 
 int main() {
-
   int* int_array = calloc(sizeof(int), 10);
   int x = open("/dev/random", O_RDONLY);
   read(x, int_array, sizeof(int) * 10);
